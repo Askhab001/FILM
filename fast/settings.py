@@ -54,7 +54,7 @@ ROOT_URLCONF = 'fast.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [os.path.join('templates')],
+        'DIRS': [os.path.join('template')],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [

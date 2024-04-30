@@ -1,13 +1,13 @@
 from django.shortcuts import render
 
 
-
-
 def index(request):
-    users = ["Admin", "User", "Guest"]
-    return render(request, 'register.html', {'users': users})
+    return render(request, 'register.html')
 
 
 def main(request):
-    CarBrand = ['title']
-    return render(request, 'assa.html', {'CarBrand':CarBrand})
+    return render(request, 'assa.html')
+
+
+def aza(request):
+    return render(request, 'aza.html')
